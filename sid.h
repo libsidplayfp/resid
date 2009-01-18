@@ -16,9 +16,6 @@
 //  along with this program; if not, write to the Free Software
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 //  ---------------------------------------------------------------------------
-// C64 DTV modifications written by
-//   Daniel Kahlin <daniel@kahlin.net>
-// Copyright (C) 2007  Daniel Kahlin <daniel@kahlin.net>
 
 #ifndef __SID_H__
 #define __SID_H__
@@ -109,8 +106,6 @@ protected:
   cycle_count bus_value_ttl;
 
   double clock_frequency;
-
-  bool is_dtv;
 
   // External audio input.
   int ext_in;
